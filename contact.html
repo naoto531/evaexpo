@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eva expo</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<div id=main>
+
+		<div id="header">
+			<div id="logo">
+        		<img src="imagens/logo.png" alt="logo">
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="index.html">Ínicio</a></li>
+          <li><a href="eva.html">Evangelion</a></li>
+          <li><a href="characters.html">Personagens</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li class="selected"><a href="contact.html">Contato</a></li>
+          <li><a href="about.html">Sobre</a></li>
+        </ul>
+      </div>
+		</div>
+
+
+		<div id="site_content">
+      <div id="content">
+        <form action="#" method="post" onsubmit="return validation();">
+          <label for="name">Seu nome</label>
+          <input type="text" name="name" id="name">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email">
+          <label for="comment">Comentário</label>
+          <input type="comment" name="comment" id="comment">
+          <input type="submit" name="submit" id="Insert Now">
+        </form>
+        <script type="text/javascript">
+          function validation(){
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var comment = document.getElementById('comment').value;
+            if(name=='' || email=='' || comment=='')
+            {
+              alert('Preencha todos os campos!')
+              return false;
+            }else{
+              alert('Seu comentário foi enviado com sucesso!')
+              return true;
+            }
+
+
+          }
+          
+        </script>
+      </div>
+    </div>
+    <div id="footer">
+      Site desenvolvido para trabalho de interface
+    </div>
+	</div>
+
+</body>
+</html>

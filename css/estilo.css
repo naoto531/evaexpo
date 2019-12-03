@@ -1,0 +1,313 @@
+body{
+	background-color: black;
+}
+
+#logo
+{ width: 898px;
+  position: relative;
+  height: 148px;
+  border-bottom: 1px solid #FFF;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 50px;}
+
+  #menubar
+{ width: 898px;
+  height: 52px;
+  padding: 0;
+  background: #000;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid #FFF} 
+
+ul#menu, ul#menu li
+{ float: left;
+  margin: 0; 
+  padding: 0;}
+
+
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font: normal 92% arial, sans-serif;
+  display: block; 
+  float: left; 
+  height: 17px;
+  margin: 10px 0 0 10px;
+  padding: 9px 26px 6px 26px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;} 
+
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
+{ color: grey;
+  }
+
+#content{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	width: 898px;
+  position: relative;
+}
+
+div.gallery:hover img{
+  transform: scale(1.2);
+  border: 2px solid #000;
+}
+
+div.gallery img {
+  transition: all 400ms;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.gallerysobre{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#titulo{
+  color: white;
+}
+
+#nomesobre{
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+}
+
+.corpo{
+  color: white;
+}
+
+#video{
+  margin-bottom: 47px;
+}
+
+#footer
+{ width: 898px;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 33px;
+  padding: 24px 0 5px 0;
+  text-align: center; 
+  background: transparent;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #fff;
+  margin-top: 40px;}
+
+
+.containershinji {
+  position: relative;
+  width: 898px;
+  height: 474px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overlayshinji {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containershinji:hover .overlayshinji {
+  opacity: 0.8;
+  border: 1px solid #fff;
+}
+
+.containerasuka {
+  position: relative;
+  width: 350px;
+  height: 491px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overlayasuka {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.containerasuka:hover .overlayasuka {
+  opacity: 0.8;
+  border: 1px solid #fff;
+}
+
+.imagemsobre{
+  margin: 10px auto 20px;
+  display: block;
+}
+
+
+.containerrei {
+  position: relative;
+  width: 630px;
+  height: 474px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overlayrei {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.containerrei:hover .overlayrei {
+  opacity: 0.8;
+  border: 1px solid #fff;
+}
+
+
+.containermisato {
+  position: relative;
+  width: 350px;
+  height: 490px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overlaymisato {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.containermisato:hover .overlaymisato {
+  opacity: 0.8;
+  border: 1px solid #fff;
+}
+
+.containergendo {
+  position: relative;
+  width: 350px;
+  height: 490px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overlaygendo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.containergendo:hover .overlaygendo {
+  opacity: 0.8;
+  border: 1px solid #fff;
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#coment{
+  color: white;
+}
+
+label{
+  color: white;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=comment], select {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #000;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid white;
+}
